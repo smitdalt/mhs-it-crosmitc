@@ -10,6 +10,6 @@ steps:
     SourcePath: $(Build.Repository.LocalPath)
     azureSubscription: 'Visual Studio Enterprise – MPN(1e4d77f1-1322-4e5d-9ab7-22e003a13e03)'
     Destination: 'AzureBlob'
-    storage: 'mhsitsite'
+    storage: 'mhsitlab'
     BlobPrefix: 'crosmitc/'
     ContainerName: '$web'
